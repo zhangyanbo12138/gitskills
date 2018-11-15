@@ -1,0 +1,504 @@
+body{
+    font-size: 24/75rem;
+    font-family:"微软雅黑";
+    line-height: 24/75rem;
+    overflow-x: hidden;
+}
+//header
+.header-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background:#314b29;
+}
+.pub-mt{
+    width: 100%;
+    height: 96/75rem;
+}
+.header{
+    width: 100%;
+    height: 96/75rem;
+    background: #314b29;
+}
+.logo{
+    float: left;
+    padding-left: 36/75rem;
+    padding-top: 10/75rem;
+}
+.logo a img{
+    width: 300/75rem;
+}
+.header-tel{
+    float: left;
+    box-sizing: border-box;
+    width: 350/75rem;
+    text-align: right;
+    padding-top: 12/75rem;
+    padding-right: 18/75rem;
+    background: url(../images/top-tel.png)no-repeat right center;
+    background-position-x: 160/75rem;
+    background-position-y: 20/75rem;
+    background-size:38/75rem;
+}
+.header-tel p{
+    font-size: 22/75rem;
+    color: #fff;
+    line-height: 32/75rem;
+}
+.menu-on{
+    float: right;
+    padding-top: 22/75rem;
+    padding-right: 16/75rem;
+}
+.menu-on img{
+    width: 48/75rem;
+}
+.menu-off{
+    float: right;
+    padding-top: 22/75rem;
+    padding-right: 16/75rem;
+}
+.menu-off img{
+    width: 48/75rem;
+}
+
+
+.menu-list{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 88/75rem;
+    z-index: 999999;
+    background: #fff;
+}
+.menu-list ul li a{
+    display: block;
+    width: 100%;
+    height: 60/75rem;
+    line-height: 60/75rem;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    background: #fff;    
+    font-size: 25/75rem;    
+}
+.menu-list ul li a:hover{
+    background: url(../images/menu-arrow-left.png)no-repeat 710/75rem center;
+    background-size:20/75rem ;
+    border-bottom: 2/75rem solid #149e13;
+    color: #314b29;
+}
+.menu-list-tel{
+    width: 100%;
+    color: #314b29;
+    font-size: 32/75rem;
+    font-weight: 700;
+    line-height: 42/75rem;
+    text-align: center;
+    background: url(../images/menu-list-tel.png)no-repeat 155/75rem center;
+    background-size: 48/75rem;
+    margin-top: 110/75rem;
+}
+.menu-list-tel i{
+    font-size: 24/75rem;
+    font-weight: normal;
+}
+//swiper
+
+.banner{
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .list{
+    width: 400%;
+}
+.banner .list li{
+    float: left;
+    width: 25%;
+}
+.banner .list a{
+    display: block;
+    height: 280/75rem;
+    background: url(../images/banner-001.png) no-repeat;
+    background-size: 750/75rem;
+}
+.banner .list li:nth-child(2) a{
+    background-image: url(../images/banner-001.png);
+}
+.banner .list li:nth-child(3) a{
+    background-image: url(../images/banner-001.png);
+}
+.banner .list li:nth-child(4) a{
+    background-image: url(../images/banner-001.png);
+}
+.banner .btn{
+    position: absolute;
+    bottom: 12/75rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner .btn li{
+    float: left;
+    width: 16/75rem;
+    height: 16/75rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    margin: 0 8/75rem;
+}
+
+.banner .btn .active{
+    background: rgba(51,153,234,0.7);
+}
+//productcate
+.productcate{
+    width: 100%;
+    padding-bottom: 36/75rem;
+}
+.productcate-ul{
+    width: 650/75rem;
+    margin: 0 auto;
+    overflow: hidden;   
+}
+.productcate-ul .productcate-li{
+    display: inline-block;
+    width: 24.1%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20/75rem;
+}
+.productcate-li a span{
+    display: block;
+    margin: 0 auto;
+    width: 120/75rem;
+    border: 1/75rem solid #e8e6e6;
+    border-radius: 50%;
+    text-align: center;
+}
+.productcate-li a span img{
+    width: 120/75rem;
+}
+.productcate-li a p{
+    font-size: 22/75rem;
+    color: #706968;
+    line-height: 28/75rem;
+    font-weight: 700;
+}
+//hot product
+.hotpro{
+    width: 100%;
+    padding-bottom: 46/75rem;
+}
+.hotpro-tit{
+    width: 100%;
+    height: 50/75rem;
+    overflow: hidden;
+    background: url(../images/hotproduct-tit-bj.png)no-repeat left center;
+    background-size: 100%;
+}
+.hotpro-tit h2{
+    float: left;
+    font-size: 28/75rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 50/75rem;
+    padding-left: 62/75rem;
+}
+.hotpro-tit a img{
+    float: right;
+    width: 80/75rem;
+}
+.hotpro-ul{
+    width: 100%;
+    padding-left: 60/75rem;
+    padding-right: 60/75rem;
+    padding-top: 30/75rem;
+}
+.hotpro-li{
+    width: 282/75rem;
+    height: auto;
+    min-height: 210/75rem;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.hotpro-ul .hotpro-li:nth-child(2n){
+    margin-left: 66/75rem;
+}
+.hotpro-li img{
+    width: 100%;
+    -moz-box-shadow:5/75rem 5/75rem 5/75rem 5/75rem #dcdcdc; 
+    -webkit-box-shadow:5/75rem 5/75rem 5/75rem 5/75rem #dcdcdc;
+    box-shadow:5/75rem 5/75rem 5/75rem 5/75rem #dcdcdc;
+}
+.hotpro-li p{
+    font-size: 27/75rem;
+    color: #fff;
+    left: 16/75rem;
+    top: 16/75rem;
+    z-index: 99;
+    position: absolute;
+}
+.recommend .hotpro-li{
+    margin-bottom: 26/75rem;
+}
+//about us
+.about{
+    width: 100%;
+    padding-bottom: 26/75rem;
+}
+.about-tit{
+    width: 100%;
+    height: 50/75rem;
+    overflow: hidden;
+    background: url(../images/about-tit-bj.png)no-repeat left center;
+    background-size: 100%;
+}
+.about-tit h2{
+    float: left;
+    font-size: 28/75rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 50/75rem;
+    padding-left: 62/75rem;
+}
+.about-tit a img{
+    float: right;
+    width: 80/75rem;
+}
+.about-text{
+    width: 100%;
+    padding-top: 26/75rem;
+    padding-bottom: 20/75rem;
+    padding-left: 42/75rem;
+    padding-right: 42/75rem;
+    box-sizing: border-box;
+}
+.about-text p{
+    width: 100%;
+    line-height: 32/75rem;
+    color: #1e1e1e;
+    font-size: 28/75rem;
+    text-indent:56/75rem;
+    text-align: justify;
+}
+.about-erwei{
+    width: 666/75rem;
+    margin: 0 auto;
+    background: #f2f3f2;
+    text-align: center;
+    overflow: hidden;
+}
+.about-erwei p{
+    display: block;
+    float: left;
+    padding-top: 46/75rem;
+    padding-bottom: 82/75rem;
+    line-height: 32/75rem;
+    font-size: 22/75rem;
+    color: #0b0b0b;
+    font-weight: 700;
+}
+.about-erwei p:nth-child(1){
+    padding-left: 60/75rem;
+}
+.about-erwei img{
+    display: block;
+    float: left;
+    margin-left: 56/75rem;
+    margin-right: 36/75rem;
+    width: 116/75rem;
+}
+//news
+.news{
+    width: 710/75rem;
+    margin: 0 auto;
+    padding-top: 70/75rem;
+}
+//.news-title{
+//  width: 100%;
+//  margin-bottom: 18/75rem;
+//}
+//.news-title h2{
+//  width: 100%;
+//  text-align: center;
+//  font-size: 40/75rem;
+//  color: #314b29;
+//  line-height: 48/75rem;
+//  font-weight: 700;
+//  margin-bottom: 6/75rem;
+//}
+//.news-title p{
+//  width: 100%;
+//  text-align: center;
+//  font-size: 25/75rem;
+//  color: #999;
+//  line-height: 26/75rem;
+//}
+.news-tit{
+    width: 100%;
+    height: 50/75rem;
+    overflow: hidden;
+    background: url(../images/about-tit-bj.png)no-repeat left center;
+    background-size: 100%;
+}
+.news-tit h2{
+    float: left;
+    font-size: 28/75rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 50/75rem;
+    padding-left: 62/75rem;
+}
+.news-tit a img{
+    float: right;
+    width: 80/75rem;
+}
+.news-list{
+    width: 100%;
+}
+.news-li{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40/75rem;
+    padding-bottom: 40/75rem;
+    border-bottom: 1/75rem solid #eee;
+}
+.news-li-left{
+    float: left;
+    width: 130/75rem;
+}
+.news-li-left p{
+    color: #314b29;
+    text-align: center;
+}
+.news-li-left p:nth-child(1){
+    font-size: 70/75rem; 
+    line-height: 76/75rem;  
+    font-weight: 700;
+}
+.news-li-left p:nth-child(2){
+    font-size: 24/75rem;
+    line-height: 28/75rem;
+}
+.news-li-right{
+    float: right;
+    width: 580/75rem;
+}
+.news-li-right h3{
+    font-size: 30/75rem;
+    color: #314b29;
+    line-height: 34/75rem;
+    margin-bottom: 18/75rem;
+    padding-left: 16/75rem;
+    font-weight: 500;
+}
+.news-li-right p{
+    font-size: 25/75rem;
+    color: #555;
+    line-height: 32/75rem;
+    padding-left: 16/75rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+//top
+.top-top{
+    width: 100%;
+    height: 50/75rem;
+    background: #314b29;
+    overflow: hidden;
+}
+.top-top img{
+    width: 74/75rem;
+    float: right;
+}
+
+//footer-info
+.footer-info{
+    width: 100%;
+    background: #fff;
+    padding-top: 50/75rem;
+    padding-bottom: 50/75rem;
+    margin-bottom:96/75rem;;
+}
+.footer-lis ul{
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-lis ul li{
+    display: inline-block;
+    padding-left: 12/75rem;
+    padding-right: 12/75rem;
+    border-right: 2/75rem solid #555555;
+    height: 22/75rem;
+    line-height: 22/75rem;
+    margin-bottom: 20/75rem;
+}
+.footer-lis ul li:last-child{
+    border: none;
+}
+.footer-lis ul li a{
+    color: #555555;
+    font-size: 22/75rem;
+    height: 22/75rem;
+    line-height: 22/75rem;
+    display: block;
+}
+.footer-cop{
+    width: 100%;
+    text-align: center;
+}
+.footer-cop p{
+    text-align: center;
+    color: #555555;
+    font-size: 22/75rem;
+    display: inline-block;
+}
+
+
+//footer-fix
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 96/75rem;
+    background: #314b29;
+    bottom: 0;
+    padding-bottom: 12/75rem;
+    z-index: 999;
+}
+.footer li{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.footer li a{
+    display: block;
+    height: 98/75rem;
+    background: url(../images/footer-icon-001.png) no-repeat center 10/75rem;
+    background-size: 48/75rem;
+    padding-top: 66/75rem;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-size: 28/75rem;
+}
+.footer li .fix-sel{
+    color: #fff;
+}
+.footer li:nth-child(2) a{
+    background-image: url(../images/footer-icon-002.png);
+}
+.footer li:nth-child(3) a{
+    background-image: url(../images/footer-icon-003.png);
+}
+.footer li:nth-child(4) a{
+    background-image: url(../images/footer-icon-004.png);
+}
